@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <!-- Contenedor de formulario para crear cuenta -->
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Crear Cuenta</h1>
+                <div class="social-container">
+                    <a href="#"><img src="google-mas.png" alt="google"></a>
+                </div>
+                <span>Regístrate usando tu correo electrónico</span>
+                <div class="inputs">
+                    <div class="inp">
+                        <input type="text" placeholder="Nombre" />
+                    </div>
+                    <div class="inp">
+                        <input type="email" placeholder="Correo electrónico" />
+                    </div>
+                    <input type="password" placeholder="Contraseña" />
+                </div>
+                <div class="boton">
+                    <button>Regístrate</button>
+                </div>
+            </form>
+        </div>
+        <!-- Contenedor para iniciar sesion -->
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Inicia sesión</h1>
+                <div class="social-container">
+                    <a href="#"><img src="google-mas.png" alt="google"></a>
+                </div>
+                <span>Introduce tu cuenta</span>
+                <div class="inputs">
+                    <div class="inp">
+                        <input id="inp" type="email" placeholder="Correo electrónico" />
+                    </div>
+                        <input type="password" placeholder="Contraseña" />
+                </div>
+                <div class="boton">
+                    <button>Iniciar sesión</button>
+                </div>
+                
+            </form>
+        </div>
+        <!-- Pestañas sobrepuestas -->
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>¡Bienvenido de nuevo!</h1>
+                    <p>Para poder compartir con nosotros inicia sesión con tu cuenta</p>
+                    <button class="ghost" id="signIn">Iniciar sesión</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>¡Hola!</h1>
+                    <p>Para poder compartir con nosotros regístrate con tu información personal</p>
+                    <button class="ghost" id="signUp">Regístrate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
