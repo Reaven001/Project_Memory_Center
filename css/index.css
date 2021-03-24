@@ -80,43 +80,38 @@ p {
 }
 
 #areas{
-    background-color: rgba(232,145,12,1); 
+    background-color: rgba(232,145,12,1);
 }
 
 .verticaltext{
-  width:1px;
+  width: 1px;
   word-wrap: break-word;
   white-space: pre-wrap; 
 }
 
-
-
-
-
 .hexagon {
   position: relative;
-  width: 390px; 
-  height: 225.17px;
+  width: 330px; 
+  height: 190.53px;
   background-color: #620ce8;
-  margin: 112.58px 0;
+  margin: 95.26px 0;
 }
 
-.hexagon:before,
-.hexagon:after {
+.hexagon:before, .hexagon:after {
   content: "";
   position: absolute;
   width: 0;
-  border-left: 195px solid transparent;
-  border-right: 195px solid transparent;
+  border-left: 165px solid transparent;
+  border-right: 165px solid transparent;
 }
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 112.58px solid #620ce8;
+  border-bottom: 95.26px solid #620ce8;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 112.58px solid #620ce8;
+  border-top: 95.26px solid #620ce8;
 }
