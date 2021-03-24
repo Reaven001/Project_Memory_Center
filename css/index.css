@@ -1,0 +1,122 @@
+/*rgba(232,145,12,1) Naranja */
+/*rgba(225,255,0,1) Amarillo*/
+/*rgba(255,0,0,1) Rojo*/
+/*rgba(98,12,232,1) Morado*/
+/*rgba(13,191,255,1) Azul*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: rgb(255, 255, 0, 1);
+    font-family: 'Fredoka One', cursive;
+    font-size: 80pt;
+}
+
+
+
+#historia h2 {
+    color: rgba(232,145,12,1);
+    font-family: 'Fredoka One', cursive;
+    font-size: 40pt;
+}
+
+.hexagonoslinea ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#areas h2 {
+	  color: rgba(225,255,0,1);
+    font-family: 'Fredoka One', cursive;
+    font-size: 40pt;
+}
+
+h3 {
+	color: rgba(232,145,12,1);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20pt;
+}
+
+p {
+	color: rgba(225,255,0,1);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#principal{
+  background-color: rgba(13,191,255,1);
+  
+}
+
+#contenedor{
+  background-color: rgba(13,191,255,1);
+}
+
+.titulo {
+	margin: 0 auto;
+}
+
+.logo {
+	margin: 0 auto;
+}
+
+#historia{
+    background-color: rgba(98,12,232,1);
+}
+
+.hexagonoslinea{
+	color: rgba(232,145,12,1);
+}
+
+.lineadetiempo{
+  border-bottom: solid 4px rgba(232,145,12,1);
+}
+
+#areas{
+    background-color: rgba(232,145,12,1); 
+}
+
+.verticaltext{
+  width:1px;
+  word-wrap: break-word;
+  white-space: pre-wrap; 
+}
+
+
+
+
+
+.hexagon {
+  position: relative;
+  width: 390px; 
+  height: 225.17px;
+  background-color: #620ce8;
+  margin: 112.58px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 195px solid transparent;
+  border-right: 195px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 112.58px solid #620ce8;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 112.58px solid #620ce8;
+}
